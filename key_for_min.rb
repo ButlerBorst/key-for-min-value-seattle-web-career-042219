@@ -13,7 +13,4 @@ def key_for_min_value(name_hash)
   end
 end
    
-   hash.each { |k, v| puts k if v == hash.values.max
    
-   
-end
