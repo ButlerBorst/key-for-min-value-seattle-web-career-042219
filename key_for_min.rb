@@ -13,7 +13,6 @@
           min_value = value
           min_key = key
         end
+        puts key
       end
-      puts key
-  end 
-end
+      end
