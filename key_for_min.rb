@@ -5,6 +5,7 @@
   if name_hash = {}
     return nil
   else
+    name_hash.sort_by { |name, age| age }
       min_value = name_hash.first[1]
       min_key = name_hash.first[0]
       name_hash.each do |key, value|
