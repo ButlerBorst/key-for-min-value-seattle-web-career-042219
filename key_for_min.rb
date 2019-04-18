@@ -14,6 +14,6 @@
           min_key = key
         end
       end
-      min_key
+      puts key
   end 
 end
