@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
      :z => 3
    }
    
-   ke
+   name_hash.each do |key,value|
    
    if lowest_value == 0 || value < lowest_value
       lowest_value = value 
